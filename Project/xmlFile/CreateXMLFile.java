@@ -64,7 +64,7 @@ public class CreateXMLFile {
             TransformerFactory transformerFactory = TransformerFactory.newInstance();
             Transformer transformer = transformerFactory.newTransformer();
             DOMSource domSource = new DOMSource(doc);
-            StreamResult streamResult = new StreamResult(new File("C:\\Eli\\II kurs\\III sem\\OOP_JAVA\\EncryptionRMI\\users.xml"));
+            StreamResult streamResult = new StreamResult(new File("***"));
 
             transformer.transform(domSource, streamResult);
 
